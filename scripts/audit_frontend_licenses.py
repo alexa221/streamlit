@@ -33,6 +33,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 FRONTEND_DIR_LIB = SCRIPT_DIR.parent / "frontend/lib"
 FRONTEND_DIR_APP = SCRIPT_DIR.parent / "frontend/app"
 
+# set of generated Unit and Interation tests
 # Set of acceptable licenses. If a library uses one of these licenses,
 # we can include it as a dependency.
 ACCEPTABLE_LICENSES = {
